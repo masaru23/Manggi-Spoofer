@@ -21,7 +21,7 @@ pic = pathlib.Path('C:\\ManggiSpoofer\\Manggi.jpg')
 if pic.exists():
     print('Picture exists')
 else:
-    urllib.request.urlretrieve("https://private-user-images.githubusercontent.com/137702271/514439585-c667afef-ff89-41d3-b37a-5d0f528ca686.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NjMxMjgxMzEsIm5iZiI6MTc2MzEyNzgzMSwicGF0aCI6Ii8xMzc3MDIyNzEvNTE0NDM5NTg1LWM2NjdhZmVmLWZmODktNDFkMy1iMzdhLTVkMGY1MjhjYTY4Ni5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUxMTE0JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MTExNFQxMzQzNTFaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT02OGY1ZDcxYTY5YzU0NTBkNzA2MTE5ZWE1YzI2NDk1YTNmYzEyMDMwNmRkMTVlMTIwMzgyYjc5OTBlZmVkMTg0JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.a1zAE8F6-ZesK-7voFcYuK3pYSJiOEF6r4uiEajoS6w", "C:\ManggiSpoofer\Manggi.jpg")
+    urllib.request.urlretrieve("https://raw.githubusercontent.com/masaru23/Manggi-Spoofer/refs/heads/main/Manggi.png", "C:\ManggiSpoofer\Manggi.jpg")
 #creating the app with tkinter (icons, images, navigation etc)
 class App(customtkinter.CTk):
     def __init__(self):
